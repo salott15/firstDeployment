@@ -1,0 +1,13 @@
+{
+  "name": "first-deployment",
+  "version": "0.0.1",
+  "description": "basics of starting an app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^5.0.0-alpha.5",
+    "handlebars": "^4.0.5"
+  }
+}
