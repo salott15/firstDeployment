@@ -4,10 +4,14 @@
   "description": "basics of starting an app",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "mocha"
   },
   "dependencies": {
+    "chai": "^4.1.0",
+    "chai-http": "^3.0.0",
     "express": "^5.0.0-alpha.5",
-    "handlebars": "^4.0.5"
+    "handlebars": "^4.0.5",
+    "mocha": "^3.4.2"
   }
 }
